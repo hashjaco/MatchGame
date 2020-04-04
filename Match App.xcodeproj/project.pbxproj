@@ -39,7 +39,7 @@
 		D8FACCCD21E4B08400AE2444 /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuffle.wav; sourceTree = "<group>"; };
 		D8FACCCE21E4B08400AE2444 /* dingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingwrong.wav; sourceTree = "<group>"; };
 		D8FACCD421E4B11B00AE2444 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D8FACCD621E4B18C00AE2444 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		D8FACCD621E4B18C00AE2444 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundManager.swift; path = "Match App/SoundManager.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 				D8FACCCE21E4B08400AE2444 /* dingwrong.wav */,
 			);
 			name = Sounds;
-			path = "../../../Downloads/Learn iOS App Development in 28 Days - Resources Bundle/Days 18 - 28/Day 28 - Sounds/Sounds";
-			sourceTree = "<group>";
+			path = "Match App/Sounds";
+			sourceTree = SOURCE_ROOT;
 		};
 		D8FACCD321E4B11B00AE2444 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -141,6 +141,7 @@
 				TargetAttributes = {
 					D89D611621D8D491005E7D72 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -344,7 +345,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Syntheticheroism.Match-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -362,7 +363,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Syntheticheroism.Match-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
